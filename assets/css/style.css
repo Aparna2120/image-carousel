@@ -1,0 +1,47 @@
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 35em;
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 1em;
+    color: #fff;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: 0.6 ease;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    height: 35em;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
